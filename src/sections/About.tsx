@@ -1,46 +1,4 @@
-// "use client";
 
-// import Image from "next/image";
-// import { motion } from "framer-motion";
-
-// export default function About() {
-//   return (
-//     <section id="about" className="py-24">
-//       <div className="container max-w-4xl mx-auto text-center">
-
-//         <motion.h2
-//           initial={{ opacity: 0, y: 20 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.5 }}
-//           className="text-5xl font-medium"
-//         >
-//           About <span className="text-lime-400">Us</span>
-//         </motion.h2>
-
-//         <p className="text-white/60 mt-6 text-lg">
-//           We build modern UI experiences with smooth animations, clean design,
-//           and high performance. Our goal is to make design feel effortless.
-//         </p>
-
-//         <motion.div
-//           whileHover={{ scale: 1.05 }}
-//           transition={{ duration: 0.3 }}
-//           className="mt-10"
-//         >
-//           <Image
-//             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
-//             width={800}
-//             height={500}
-//              unoptimized
-//             alt="About us"
-//             className="rounded-2xl shadow-lg"
-//           />
-//         </motion.div>
-
-//       </div>
-//     </section>
-//   );
-// }
 
 "use client";
 
