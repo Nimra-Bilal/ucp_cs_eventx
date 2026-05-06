@@ -702,7 +702,7 @@ export default function Hero() {
     sequence();
   }, []);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit =async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const res = await fetch("/api/newsletter", {
       method: "POST",

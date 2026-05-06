@@ -20,7 +20,7 @@ export default function Navbar() {
     <div className="border border-white/15 backdrop-blur bg-neutral-950/70 md:rounded-full rounded-[27px]">
     <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
         <div>
-<Image src ={logoImage} className="h-9  md:h-12 lg:h-16 md:h-auto w-auto " alt="Layers logo" />
+<Image src ={logoImage} className="h-9  lg:h-16 md:h-auto w-auto " alt="Layers logo" />
         </div>
 <div className="lg:flex justify-center items-center hidden">
     <nav className="flex gap-6 font-medium">
