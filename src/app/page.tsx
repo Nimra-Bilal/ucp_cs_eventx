@@ -12,12 +12,14 @@ import Testimonials from "@/sections/Testimonials";
 import Contact from "@/sections/Contact";
 import PrivacyPolicy from "@/sections/Privacy";
 import Terms from "@/sections/Terms";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
     return (
     <>
    
     <Navbar />
+    <Chatbot/>
    <Hero/>
     <LogoTicker/>
     <Introduction/>
